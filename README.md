@@ -2,12 +2,20 @@
 Project that vibrates individual fingertips with Arduino and vibration motors upon virtual collisions between fingertips and objects in VR
 
 This project requires the following items:
+
   Unity
-  Arduino - the original project used an Arduino Nano but most will work as long as the operating voltage is high enough to drive the vibration motors.
+  
+  Arduino - the original project used an Arduino Nano but most will work as long as the operating voltage is high enough to drive the vibration motors
+  
   Oculus Quest (1 or 2)
+  
   Glove
+  
   5 mini vibration motors (similar to these: https://www.amazon.com/tatoko-Vibration-Button-Type-Vibrating-Appliances/dp/B07Q1ZV4MJ/ref=sr_1_5?crid=10YNB0TU870ZS&keywords=piezo+motors&qid=1652753386&sprefix=piezo+motor%2Caps%2C70&sr=8-5)
+  
   Conductive thread (reccomended)
+  
+  
 
 Steps to replicate this project are as follows:
 1. Create a glove with a vibration motor on each of the fingertips and an Arduino in a comfortable location. Conductive thread can be used to wire the vibration motor to the pins of the arduino. Currently this project only supports wired communication so a battery is not neccesary. For demonstration purposes, LEDs can be wired to the arduino instead of vibration motors.
