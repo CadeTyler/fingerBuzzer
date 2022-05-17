@@ -10,6 +10,7 @@ public class CustomTriggerZone : MonoBehaviour
     public string ring;
     public string pinky;
 
+    //Change "COM6" to the correct serial port for your arduino
     public SerialPort sp = new SerialPort("COM6",9600);
    
 
