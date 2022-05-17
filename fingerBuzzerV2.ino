@@ -1,7 +1,9 @@
 const byte numChars = 20;
 char dataIn[numChars];
+
 const short pins[] = {2,3,6,9,12};
-//const short pins[] = {6,5,4,3,2};
+//change pins[] to reflect actual wiring of arduino
+
 char startMarker = '<';
 char endMarker = '>';
 
