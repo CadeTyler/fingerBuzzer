@@ -1,6 +1,8 @@
 # fingerBuzzer
 Project that vibrates individual fingertips with Arduino and vibration motors upon virtual collisions between fingertips and objects in VR
 
+ ________________________________________________________________________________________________________________________
+
 This project requires the following items:
 
   Unity
@@ -15,7 +17,7 @@ This project requires the following items:
   
   Conductive thread (reccomended)
   
-  
+ ________________________________________________________________________________________________________________________
 
 Steps to replicate this project are as follows:
 1. Create a glove with a vibration motor on each of the fingertips and an Arduino in a comfortable location. Conductive thread can be used to wire the vibration motor to the pins of the arduino. Currently this project only supports wired communication so a battery is not neccesary. For demonstration purposes, LEDs can be wired to the arduino instead of vibration motors.
